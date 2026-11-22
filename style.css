@@ -1,0 +1,45 @@
+:root {
+    --one-color: #6a00f4;
+    --second-color: #ffd6a5;
+    --third-color: black;
+    --four-color: white;
+}
+
+body {
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: var(--one-color);
+}
+
+form{
+    background-color: var(--second-color);
+}
+
+.icon{
+    color: var(--second-color);
+}
+
+.btn-two {
+    background-color: var(--one-color);
+}
+
+.btn-two:hover , .btn-three:hover {
+    background-color: rgba(106, 0, 244, 0.7);
+    transition: 0.3s;
+}
+
+.btn-three {
+    background-color: var(--one-color);
+}
+
+table {
+    background-color: var(--second-color);
+}
+
+table th , .badge {
+    background-color: var(--one-color);
+}
